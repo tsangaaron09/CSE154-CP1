@@ -1,0 +1,80 @@
+/*
+  Aaron Tsang
+  April 8, 2020
+  Section AL with Shriya Kurpad
+
+  This is the CSS page to style the 'about.html' and the 'otherfacts.html'page.
+  It styles for the general scheme of styles for both pages to have the same
+  feel when navigating between both pages.
+*/
+body {
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  padding: 25px, 25px;
+  font-family: "Courier New", "Courier", monospace;
+}
+
+#descrip, h2, h3 {
+  width: 100%;
+  font-size: 16pt;
+}
+
+li, footer p {
+  font-size: 10pt;
+}
+
+h2, h3 {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+h2, h1 {
+  margin-bottom: -10px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 36pt;
+  font-family: 'Oswald', sans-serif;
+  margin: 20px;
+}
+
+h1, #ext-links, #descrip, .ext-links > a {
+  text-align: center;
+}
+
+.ext-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ext-links > a {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  padding: 5px 5px 5px 5px;
+  width: 250px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+blockquote > p, blockquote > footer {
+  font-family: "Snell Roundhound", cursive;
+  width: 40%;
+}
+
+.citations {
+  font-size: 6pt;
+}
+
+span {
+  font-weight: bold;
+}

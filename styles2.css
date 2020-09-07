@@ -1,0 +1,26 @@
+/*
+  Aaron Tsang
+  April 8, 2020
+  Section AL with Shriya Kurpad
+
+  This is the CSS page to style the 'otherfacts.html' page. The styles consisted
+  on this page are ones that are unique to this specific html page, for example,
+  the horizontal placing of images.
+*/
+.block > a > img {
+  width: 150px;
+  height: 150px;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+p {
+  font-size: 18pt;
+}
+
+.subtext {
+  font-size: 8pt;
+}
